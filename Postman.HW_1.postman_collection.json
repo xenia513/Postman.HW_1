@@ -1,0 +1,287 @@
+{
+	"info": {
+		"_postman_id": "734ff3ce-7d1d-4091-8d0b-1a11d648cb14",
+		"name": "Postman.HW_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21697068"
+	},
+	"item": [
+		{
+			"name": "EP_1 GET /get_method",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/get_method",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get_method"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_2 POST /user_info_3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "doshik",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "48",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "100000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_3",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_3 GET /object_info_1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/object_info_1?name=kotik&age=32&weight=64",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "kotik"
+						},
+						{
+							"key": "age",
+							"value": "32"
+						},
+						{
+							"key": "weight",
+							"value": "64"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_4 GET /object_info_2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/object_info_2?name=yozhik&age=46&salary=100000",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "yozhik"
+						},
+						{
+							"key": "age",
+							"value": "46"
+						},
+						{
+							"key": "salary",
+							"value": "100000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_5 GET /object_info_3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/object_info_3?name=kukaracha&age=54&salary=70000",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "kukaracha"
+						},
+						{
+							"key": "age",
+							"value": "54"
+						},
+						{
+							"key": "salary",
+							"value": "70000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_6 GET /object_info_4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/object_info_4?name=sambuca&age=31&salary=80000",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "sambuca"
+						},
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "salary",
+							"value": "80000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_7 POST /user_info_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "tapok",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "27",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "158000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "162.55.220.72:5005",
+			"type": "string"
+		}
+	]
+}

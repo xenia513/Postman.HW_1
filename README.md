@@ -21,8 +21,8 @@ request url params:
 response: 
 
     [
-        “Str”,
-        “Str”
+        “kks”,
+        “30”
     ]
 
 ___

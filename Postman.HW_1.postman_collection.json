@@ -19,12 +19,22 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "{{url}}/get_method",
+					"raw": "{{url}}/get_method?name=kks&age=30",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "kks"
+						},
+						{
+							"key": "age",
+							"value": "30"
+						}
 					]
 				}
 			},
@@ -285,4 +295,3 @@
 		}
 	]
 }
-
